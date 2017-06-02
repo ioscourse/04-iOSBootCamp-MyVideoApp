@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A7BF571EE0F034003341F4 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7BF561EE0F034003341F4 /* iTunesArtwork@2x.png */; };
 		36C59C931EE06D3900B892D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C59C921EE06D3900B892D9 /* AppDelegate.swift */; };
 		36C59C951EE06D3900B892D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C59C941EE06D3900B892D9 /* ViewController.swift */; };
 		36C59C981EE06D3900B892D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C59C961EE06D3900B892D9 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36A7BF561EE0F034003341F4 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		36C59C8F1EE06D3900B892D9 /* MyVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C59C921EE06D3900B892D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C59C941EE06D3900B892D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		36C59C911EE06D3900B892D9 /* MyVideoApp */ = {
 			isa = PBXGroup;
 			children = (
+				36A7BF561EE0F034003341F4 /* iTunesArtwork@2x.png */,
 				36C59C921EE06D3900B892D9 /* AppDelegate.swift */,
 				36C59C941EE06D3900B892D9 /* ViewController.swift */,
 				36C59C961EE06D3900B892D9 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 				36C59CA01EE06D3900B892D9 /* LaunchScreen.storyboard in Resources */,
 				36C59C9D1EE06D3900B892D9 /* Assets.xcassets in Resources */,
 				36C59C981EE06D3900B892D9 /* Main.storyboard in Resources */,
+				36A7BF571EE0F034003341F4 /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +278,7 @@
 		36C59CA51EE06D3900B892D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = LAK6SGQ7Q5;
 				INFOPLIST_FILE = MyVideoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,7 +291,7 @@
 		36C59CA61EE06D3900B892D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = LAK6SGQ7Q5;
 				INFOPLIST_FILE = MyVideoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -316,6 +320,7 @@
 				36C59CA61EE06D3900B892D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
