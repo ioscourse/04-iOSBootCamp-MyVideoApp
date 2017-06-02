@@ -1,4 +1,5 @@
-# iOSBootCamp-MyVideoApp
+# Week 4 iOSBootCamp
+
 # View
 http://ioscourse.co/iOSBootCamp-MyVideoApp/
 
